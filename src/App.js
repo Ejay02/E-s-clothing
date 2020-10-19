@@ -55,7 +55,7 @@ componentWillUnmount(){
         exact path="/signin" 
         render={() => 
         this.props.currentUser ? 
-       (<Redirect to ="/"/>
+       (<Redirect to ="/" />
        ) : (
          <SignInAndSignUpPage/>
          )}
